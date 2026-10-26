@@ -1,16 +1,19 @@
 # tt-series-factory
 
-Скилл для Claude Code: делает серии коротких вертикальных видео (TikTok / Reels / Shorts) целиком: сценарий, 2D-сцены в Remotion, озвучка ElevenLabs, музыка, субтитры, рендер до 29 МБ, анализ аналитики и время публикации.
+A Claude Code skill that makes series of short vertical videos (TikTok / Reels / Shorts) end to end: script, 2D scenes in Remotion, ElevenLabs voice-over, music, subtitles, a render under 29 MB, analytics review and best posting time.
 
-## Установка
-1. Скачай репозиторий (Code → Download ZIP) или склонируй его в папку `~/.claude/skills/tt-series-factory/` (Windows: `C:\Users\<имя>\.claude\skills\tt-series-factory\`), чтобы `SKILL.md` лежал прямо в ней.
-2. Перезапусти Claude Code. Скилл подхватится по описанию: попроси «сделай серию роликов», «отрендерь часть 2», «почини баги в ролике».
-3. Для работы нужны Node.js 20+, Python 3.12+, ffmpeg и проект Remotion. Подробности в `SKILL.md`.
+## Example
+[`example_part1_webinar.mp4`](example_part1_webinar.mp4) is part 1 of the animated series "The Webinar You Can't Turn Off", made with this workflow. It reached 135k views on TikTok (downscaled to 540x960 here to keep the repository small). Characters are cartoon avatars.
 
-## Что внутри
-- процесс от образцов и аналитики до публикации;
-- как держать тайминги по реальной озвучке;
-- эмоции в ElevenLabs v4 (теги, стабильность) и проверка качества звука;
-- чек-лист визуальных багов и ловушки Windows.
+## Install
+1. Download this repository (Code → Download ZIP) or clone it into `~/.claude/skills/tt-series-factory/` (Windows: `C:\Users\<name>\.claude\skills\tt-series-factory\`) so that `SKILL.md` sits directly in that folder.
+2. Restart Claude Code. The skill is picked up by its description: ask "make a series of videos", "render part 2" or "fix the bugs in the video".
+3. You need Node.js 20+, Python 3.12+, ffmpeg and a Remotion project. Details are in `SKILL.md`.
 
-Замечания и правки приветствуются.
+## What is inside
+- the process from references and analytics to publishing;
+- keeping timings in sync with the real voice-over;
+- emotion in ElevenLabs v4 (tags, stability) and audio quality checks;
+- a checklist of visual bugs and Windows pitfalls.
+
+Issues and suggestions are welcome.
